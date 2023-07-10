@@ -1,0 +1,76 @@
+.todoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.todoWrapper{
+    min-width: 450px;
+    min-height: 650px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 3px 6px 20px #000;
+    
+}
+
+.header {
+    text-align: center;
+}
+
+.todoInput {
+    margin-left: 20%;
+    width: 200px;
+    border-radius: 15px;
+    padding: 15px;    
+    border:1px solid blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.todoSubmit {
+    border-radius:15px ;
+    padding: 16px;
+    margin-left: 10px;
+    background-color: dodgerblue;
+    color: #fff;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.todoList{
+    list-style-type:none;
+    margin-left: 20px ;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between  ;
+    font-size: 17px;
+   font-weight: 600;
+    border-bottom: 2px solid #ccc;
+}
+.iconWrapper{
+    display: flex;
+    gap: 5px;
+}
+
+.iconComplete{
+    background-color: green;
+    border-radius: 40%;
+    border: none;
+}
+.iconEdit{
+    background-color: blue;
+    border-radius: 40%;
+    border: none;
+}
+
+.iconDelete{
+    background-color: red;
+    border-radius: 40%;
+    border: none;
+
+}
